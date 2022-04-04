@@ -5,7 +5,7 @@ import img from '../Images/laptop.jpg'
 import './Home.css'
 const Home = () => {
     return (
-    <div>
+    <div className='mt-16'>
         <div className='d-flex justify-content-between m-8 gap-4'>
             <div className=' text-left text-purple-300 pt-5 w-50'>
                  <div className='p-3'>
