@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name":"Shah Rukh Khan",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8MYKAWScCnS4cbEcTPfBointgc-VwxSkRA&usqp=CAU",
+         "review":"Asus’s ROG Zephyrus G14 This laptop is great for gaming. I love this laptop",
+         "rating":5
+    },
+    {
+        "id":2,
+        "name":"Salman Khan",
+        "img":"https://akm-img-a-in.tosshub.com/indiatoday/images/story/202203/salman-khan-continues-his-eid-_1200x768.jpeg?Cl29gmSwECM7kEKGCRQoQL2nbO_tjVAz&size=770:433",
+         "review":"Asus’s ROG Zephyrus G14 , i think this is the world best laptop for gaming. I love this laptop",
+         "rating":3
+    },
+    {   
+        "id":3,
+        "name":"Amir Khan",
+        "img":"https://img.mensxp.com/media/content/2020/Mar/Bollywood-Blockbusters-Aamir-Khan-Declined-1200x900_5e6cd30229e73.jpeg",
+         "review":"Asus’s ROG Zephyrus G14 I thought this laptop would not be so good. But it works great",
+         "rating":4
+    },
+    {
+        "id":4,
+        "name":"Irrfan Khan",
+        "img":"https://static.toiimg.com/thumb/75447664.cms?width=680&height=512&imgsize=261334",
+         "review":"Asus’s ROG Zephyrus G14 This laptop is best for gaming. I like it a lot",
+         "rating":3
+    },
+    {
+        "id":5,
+        "name":"Atif Islam",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi0CEyz6CcgBETSeVQtfNFh2sBiS10S8rLOw&usqp=CAU",
+         "review":"Asus’s ROG Zephyrus G14 I love playing cricket as well as games on laptops. And I think this laptop is very good",
+         "rating":5
+    },
+    {
+        "id":6,
+        "name":"Arman Malik",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/1/15/Armaan_Malik_2016.jpg",
+         "review":"Asus’s ROG Zephyrus G14 This laptop is one of my favorite laptops",
+         "rating":5
+    }
+]
