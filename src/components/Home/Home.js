@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import CustomerReviews from '../CustomerReviews/CustomerReviews';
 import img from '../Images/laptop.jpg'
 import './Home.css'
 const Home = () => {
     return (
+    <div>
         <div className='d-flex justify-content-between m-8 gap-4'>
             <div className=' text-left text-purple-300 pt-5 w-50'>
                  <div className='p-3'>
@@ -18,6 +21,14 @@ const Home = () => {
                     <img src={img} alt="" />
             </div>
         </div>
+        <div>
+            <CustomerReviews></CustomerReviews>
+          <button className='bg-pink-300 m-6 px-6 py-2 rounded-xl'>
+              <Link to="/reviews" className='all-reviews'> All Reviews</Link>
+          </button>   
+        </div>
+ </div>
+        
     );
 };
 
