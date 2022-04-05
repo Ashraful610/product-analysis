@@ -2,7 +2,11 @@ import React from 'react';
 import './Blogs.css'
 const Blogs = () => {
     return (
-            <section className='grid d-flex m-8 gap-16'>
+       <div>
+               <div className='d-flex justify-center'>
+                   <h1 className='text-pink-300'>Question Answer</h1>
+               </div>
+                <section className='grid d-flex m-8 gap-16'>
                 <div className='col-lg-6 p-6 ms-12 shadow-lg' >
                     <h2>What is Semantic tag</h2>
                     <article className='semantic-article p-4'>
@@ -16,6 +20,7 @@ const Blogs = () => {
                         </article>
                 </div>
             </section>
+    </div>
     );
 };
 
