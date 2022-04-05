@@ -1,0 +1,12 @@
+.semantic-article{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 20px;
+}
+.context-article{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 20px;
+}
