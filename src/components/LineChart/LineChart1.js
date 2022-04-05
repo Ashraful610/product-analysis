@@ -42,7 +42,7 @@ const LineChart1 = () => {
         }
     ]
     return (
-        <div>
+        <div className='p-2'>
             <LineChart width={550} height={400} data={data}>
                <Line type="monotone" dataKey="investment" stroke="#8884d8" />
                <CartesianGrid stroke="#ccc" />

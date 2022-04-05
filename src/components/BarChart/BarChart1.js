@@ -1,7 +1,7 @@
 import React from 'react';
-import { Bar, ResponsiveContainer } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend,Tooltip, XAxis, YAxis } from 'recharts';
 
-const BarChart = () => {
+const BarChart1 = () => {
     const data  = [
         {
             "month": "Mar",
@@ -41,14 +41,16 @@ const BarChart = () => {
         }
     ]
     return (
-        <div>
-            <ResponsiveContainer>
-               <BarChart width={400} height={300} data={data}>
-                   <Bar dataKey="investment" fill="#8884d8" />          
-               </BarChart>
-            </ResponsiveContainer>
+        <div className='p-2'>
+           <BarChart width={550} height={400} data={data}>
+               <CartesianGrid strokeDasharray="3 3" />
+               <XAxis dataKey="month" />
+               <YAxis />
+               <Tooltip />
+               <Bar dataKey="investment" fill="#8884d8" />
+         </BarChart>
         </div>
     );
 };
 
-export default BarChart;
+export default BarChart1;
