@@ -7,7 +7,7 @@ const Header = () => {
                 <div className='ms-5 p-2 text-pink-300'>
                      <h1>BEST LAPTOP SHOP</h1>
                </div>
-    <nav className='d-flex'>
+    <nav className='d-flex navbar'>
 
       <CustomLink to='/' className='no-underline  text-2xl text-pink-300 me-4'>
                   HOME

@@ -1,6 +1,7 @@
 import { Tooltip } from 'recharts';
 import React from 'react';
 import { CartesianGrid, Line, LineChart, XAxis, YAxis } from 'recharts';
+ import './LineChart.css' 
 
 const LineChart1 = () => {
     const data  = [
@@ -42,11 +43,11 @@ const LineChart1 = () => {
         }
     ]
     return (
-        <div className='p-2'>
-               <div className='m-2'>
+        <div className='p-2 line-chart'>
+               <div >
                    <h1 className='text-purple-300'>Line Chart</h1>
                </div>
-            <LineChart width={550} height={400} data={data}>
+            <LineChart  width={550} height={400} className='' data={data}>
                <Line type="monotone" dataKey="investment" stroke="#8884d8" />
                <CartesianGrid stroke="#ccc" />
                <XAxis dataKey="month" />

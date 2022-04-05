@@ -6,11 +6,11 @@ const Blogs = () => {
                <div className='d-flex justify-center'>
                    <h1 className='text-pink-300'>Question Answer</h1>
                </div>
-                <section className='grid d-flex m-8 gap-16'>
+            <section className='row d-flex gap-16 mt-4 p-6 answer-section'>
                 <div className='col-lg-6 p-6 ms-12 shadow-lg' >
                     <h2>What is Semantic tag</h2>
                     <article className='semantic-article p-4'>
-                      Semantic tag means meaningful tag. This means that looking   at the semantic tags indicates what kind of work the tags   do. Semantic tags make web pages accessible. Specifically,   semantic tags make it clear to the browser what the meaning   of a page and its content is. That clarity is also   communicated with search engines, ensuring that the right   pages are delivered for the right queries.Exmple- header ,   main ,nav , footer etc.
+                      Semantic tag means meaningful tag. This means that looking   at the semantic tags indicates what kind of work the tags do. Semantic tags make web pages accessible. Specifically, semantic tags make it clear to the browser what the meaning of a page and its content is. That clarity is also communicated with search engines, ensuring that the right pages are delivered for the right queries.Exmple-header ,main ,nav ,footer etc.
                     </article>
                 </div>
                 <div className='col-lg-5 p-6 shadow-lg'>

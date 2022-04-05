@@ -1,7 +1,9 @@
-@media screen and (max-width:415){
-    /* CustomLink {
-        font-size: 10px;
-        margin-right: 5px;
-        color: green;
-    } */
+@media screen and (max-width:415px){
+    .navbar{
+        padding: 5px 3px!important;
+    }
+    .navbar a{
+        font-size: 15px;
+        margin-right: 10px !important;
+    }
 }

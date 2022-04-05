@@ -6,11 +6,11 @@ import LineChart1 from '../LineChart/LineChart1';
 
 const DashBoard = () => {
     return (
-        <div className='m-4 d-flex gap-6'>  
-                <div className='w-50 p-8'>
+        <div className='m-4 d-flex row gap-24'>  
+                <div className='col-lg-5  p-8'>
                         <LineChart1></LineChart1>
                 </div>
-                <div className='w-50 p-8'>
+                <div className='col-lg-5 p-8'>
                             <BarChart1></BarChart1>
                 </div>
                

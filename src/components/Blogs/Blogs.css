@@ -1,3 +1,8 @@
+.answer-section{
+    margin-left: 50px !important;
+    margin-right: 10px !important;
+}
+
 .semantic-article{
     display: flex;
     flex-direction: column;

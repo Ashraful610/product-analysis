@@ -7,3 +7,9 @@
     font-size: 30px;
     color: white;
 }
+@media screen and (max-width:415px) {
+    .asus-heading h2{
+        font-size: 30px;
+    }
+    
+}
