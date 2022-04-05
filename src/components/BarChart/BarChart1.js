@@ -41,9 +41,9 @@ const BarChart1 = () => {
         }
     ]
     return (
-        <div className='p-2'>
-            <div >
-                 <h1 className='text-purple-300'>Bar Chart</h1>
+        <div className='p-2 '>
+            <div>
+                 <h1 className='text-purple-300 ms-6'>Investment Bar Chart</h1>
              </div>
            <BarChart width={550} height={400} data={data}>
                <CartesianGrid strokeDasharray="3 3" />

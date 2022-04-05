@@ -7,7 +7,7 @@ const CustomerReviews = () => {
     const reviewS = reviews.slice(0,3)
     return (
         <div className='m-8 mt-16'>
-             <h1 className='text-pink-300 text-5xl review'>Customer Riviews</h1>
+             <h1 className='text-pink-300 text-5xl review'>Customer Reviews</h1>
               <div className='row gap-24 ps-5 pe-5 reviews'>
                   {
                      reviewS.map(review => <Review 

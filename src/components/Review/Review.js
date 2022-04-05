@@ -13,7 +13,7 @@ const Review = ({review}) => {
                       <h3>{name}</h3>
                   </div>
                   <p className=''><span className='fw-bold'>Review :</span>  {review.review}</p>
-                    <h5> <span className='fw-bold'>Rating :</span>{rating}</h5>
+                    <h5> <span className='fw-bold'>Rating : </span>{rating}</h5>
               </div>
          </div>
         

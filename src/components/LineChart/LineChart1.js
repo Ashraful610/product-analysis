@@ -43,9 +43,9 @@ const LineChart1 = () => {
         }
     ]
     return (
-        <div className='p-2 line-chart'>
+        <div className='p-2 '>
                <div >
-                   <h1 className='text-purple-300'>Line Chart</h1>
+                <h1 className='text-purple-300 line-chart'>Investment Line Chart</h1>
                </div>
             <LineChart  width={550} height={400} className='' data={data}>
                <Line type="monotone" dataKey="investment" stroke="#8884d8" />
