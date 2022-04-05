@@ -42,6 +42,9 @@ const BarChart1 = () => {
     ]
     return (
         <div className='p-2'>
+            <div className='m-2'>
+                 <h1 className='text-purple-300'>Bar Chart</h1>
+             </div>
            <BarChart width={550} height={400} data={data}>
                <CartesianGrid strokeDasharray="3 3" />
                <XAxis dataKey="month" />
