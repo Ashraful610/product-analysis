@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Best Laptop Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Best Laptop Shop live site [Click to visit our Best Laptop Shop](https://assignment-react-router610.netlify.app/).
+
+## About our Best Laptop Shop 
+ - We are using React Bostrop and React Tailwind as part of the   CSS framework
+ - I am using Line Charts and Bar Charts as Charts
+ - I am using 404 funny pictures for 404 errors
+ - 
 
 ## Available Scripts
 
