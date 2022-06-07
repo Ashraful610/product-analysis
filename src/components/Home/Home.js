@@ -9,10 +9,10 @@ const Home = () => {
         <div className='d-flex justify-content-between ms-4 me-4 row  gap-4'>
             <div className=' text-left text-purple-300  col-lg-6  asus-detail'>
                  <div className='p-3 asus-heading'>
-                    <h2 className='text-4xl'>ASUS ROG ZEPHYRUS G15 
+                    <h2 className='lg:text-4xl text-2xl'>ASUS ROG ZEPHYRUS G15 
                          <span className='text-pink-300'> Laptop</span> 
                      </h2>
-                    <h2 className='text-4xl'>  
+                    <h2 className='lg:text-4xl text-2xl'>  
                        <span className='text-pink-300'>for </span>
                         Gaming 
                      </h2>
